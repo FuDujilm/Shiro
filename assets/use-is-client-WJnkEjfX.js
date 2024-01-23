@@ -1,0 +1,1 @@
+import{r as t}from"./index-2q2OBrW7.js";const a=e=>{const s=t.useRef(e);return s.current=e,t.useCallback((...r)=>s.current(...r),[])},u=()=>{const[e,s]=t.useState(!1);return t.useEffect(()=>{s(!0)},[]),e},c=()=>{const[e,s]=t.useState(!1);return t.useEffect(()=>{t.startTransition(()=>{s(!0)})},[]),e};export{a,c as b,u};
